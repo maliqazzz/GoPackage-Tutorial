@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Golang package tutorial")
+	fmt.Println("Go package tutorial")
 
 	pc := config.GetPostgresConnection()
 
@@ -16,6 +16,7 @@ func main() {
 
 	malik := model.Person{Id: "1", Name: "Malik"}
 
-	fmt.Println(malik.Id, malik.Name)
+	fmt.Println(malik.Id)
+	fmt.Println(malik.Name)
 
 }

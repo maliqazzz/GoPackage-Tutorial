@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Go package tutorial")
+	fmt.Println("Golang package tutorial")
 
 	pc := config.GetPostgresConnection()
 
